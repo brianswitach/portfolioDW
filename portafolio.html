@@ -1,154 +1,51 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - Brian Switach</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: 'Open Sans', sans-serif;
-            background-color: #f4f4f9;
-            color: #333;
-            line-height: 1.6;
-        }
-
-        header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 20px;
-            background-color: #333;
-            color: white;
-        }
-
-        header .logo h1 {
-            font-size: 24px;
-        }
-
-        nav ul {
-            list-style-type: none;
-            display: flex;
-        }
-
-        nav ul li {
-            margin: 0 10px;
-        }
-
-        nav ul li a {
-            color: white;
-            text-decoration: none;
-            font-weight: bold;
-        }
-
-        .portfolio {
-            text-align: center;
-            padding: 50px 20px;
-        }
-
-        .portfolio h2 {
-            font-size: 36px;
-            margin-bottom: 20px;
-        }
-
-        .project-list {
-            display: flex;
-            justify-content: space-around;
-            flex-wrap: wrap;
-        }
-
-        .project-item {
-            background-color: #f4f4f9;
-            padding: 20px;
-            margin: 10px;
-            border-radius: 8px;
-            width: 30%;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            text-align: left;
-        }
-
-        .project-item h3 {
-            font-size: 24px;
-            margin-bottom: 10px;
-        }
-
-        .project-item p {
-            font-size: 16px;
-        }
-
-        @media (max-width: 768px) {
-            .project-item {
-                width: 45%;
-            }
-        }
-
-        @media (max-width: 500px) {
-            .project-item {
-                width: 100%;
-            }
-        }
-
-        footer {
-            text-align: center;
-            margin-top: 255px;
-            padding: 20px;
-            background-color: #333;
-            color: white;
-        }
-
-        footer p {
-            margin-bottom: 5px;
-        }
-
-        footer img {
-            width: 100px;
-        }
-    </style>
-</head>
-<body>
-    <header>
-        <div class="logo">
-            <h1>BS</h1>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>  
-                <li><a href="portafolio.html">Portafolio</a></li>
-                <li><a href="yo.html">Brian</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <main>
-        <section class="portfolio">
-            <h2>Portfolio</h2>
-            <div class="project-list">
-                <div class="project-item">
-                    <h3>Futuro Proyecto 1</h3>
-                    <p>Descripción.</p>
-                </div>
-
-                <div class="project-item">
-                    <h3>Futuro Proyecto 2</h3>
-                    <p>Descripción.</p>
-                </div>
-
-                <div class="project-item">
-                    <h3>Proyecto 3</h3>
-                    <p>Descripción.</p>
-                </div>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Brian Switach - Portafolio</title>
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <h1>BS</h1>
             </div>
-        </section>
-    </main>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>  
+                    <li><a href="portafolio.html">Portafolio</a></li>
+                    <li><a href="yo.html">Brian</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
 
-    <footer>
-        <p>© 2024 Brian Switach</p>
-    </footer>
-</body>
+        <main>
+            <section class="portfolio">
+                <h2>Competencias</h2>
+                <div class="project-list">
+                    <div class="project-item">
+                        <h3>Resolución de problemas</h3>
+                        <p>Soy capaz de analizar situaciones complejas y encontrar soluciones eficientes, lo que me permite optimizar el rendimiento de aplicaciones y sistemas de manera efectiva.</p>
+                    </div>
+
+                    <div class="project-item">
+                        <h3>Trabajo en equipo</h3>
+                        <p>Me destaco en colaborar con otros profesionales, aportando mis habilidades y conocimientos para lograr el éxito en proyectos conjuntos, manteniendo siempre una comunicación clara y fluida.</p>
+                    </div>
+
+                    <div class="project-item">
+                        <h3>Adaptabilidad</h3>
+                        <p>Me adapto rápidamente a nuevas tecnologías y entornos de trabajo, lo que me permite estar al día con las tendencias y metodologías más actuales del desarrollo web y software.</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>© 2024 Brian Switach</p>
+        </footer>
+    </body>
 </html>
